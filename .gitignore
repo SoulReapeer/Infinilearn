@@ -1,1 +1,37 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# --- Backend uploads / generated data ---
+backend/uploads/
+backend/*.db
+database/*.db
+*.sqlite3
+
+# --- Hugging Face / model cache ---
+ai/models/cache/
+*.bin
+*.safetensors
+
+# --- Flutter / Dart ---
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/build/
+frontend/.idea/
+frontend/*.iml
+frontend/ios/Pods/
+frontend/android/.gradle/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
 
